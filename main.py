@@ -14,6 +14,7 @@ from typing import Any, Dict, List, Set, Tuple
 import networkx as nx
 import pandas as pd
 from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi.staticfiles import StaticFiles  # <--- Add this line
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
