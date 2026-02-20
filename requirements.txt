@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+# OR for Flask:
+flask
+gunicorn
