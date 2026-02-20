@@ -487,4 +487,4 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-app.mount("/", StaticFiles(directory="dist", html=True), name="static")
+#app.mount("/", StaticFiles(directory="dist", html=True), name="static")
