@@ -1,5 +1,6 @@
 fastapi
 uvicorn
-# OR for Flask:
-flask
-gunicorn
+networkx
+pandas
+pydantic
+python-multipart
